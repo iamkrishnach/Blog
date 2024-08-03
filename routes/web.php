@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 
 Auth::routes();
+Route::get('/', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm']);
 Route::get('/all-blogs', [PostController::class, 'blogs']);
 Route::middleware('auth')->group(function () {
     Route::get('dashboard', [App\Http\Controllers\DashboardController::class, 'admin_dashboard']);
