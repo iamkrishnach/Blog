@@ -1,0 +1,170 @@
+
+
+@media only screen and (max-width: 1350px){
+  nav .nav_wrapper .navbar .menus ul{
+    gap:17px;
+  }
+  nav .nav_wrapper .navbar .menus ul li a{
+    font-size:16px;
+  } 
+}
+
+@media only screen and (max-width: 1200px){
+.navbar .container{
+  max-width:1170px;
+}
+  nav .nav_wrapper .navbar .menus ul{
+    gap:15px;
+  }
+  nav .nav_wrapper .navbar .logo {
+    width: 100px;
+}
+}
+
+@media only screen and (max-width: 1155px){
+  nav .nav_wrapper .navbar .menus ul{
+    gap:13px;
+  }
+    nav .nav_wrapper .navbar .menus ul li a{
+    font-size:15px;
+  } 
+}
+ @media only screen and (max-width: 1095px){
+       nav .nav_wrapper .navbar .menus ul{
+    gap:12px;
+  }
+    nav .nav_wrapper .navbar .menus ul li a{
+    font-size:14px;
+  } 
+ }
+ 
+  @media only screen and (max-width: 1030px){
+
+    nav .nav_wrapper .navbar .menus ul li a{
+    font-size:13px;
+  } 
+ }
+
+@media only screen and (max-width: 1100px){
+
+}
+
+
+@media only screen and (max-width: 992px){
+.plant-tab-content{
+  height:auto;
+  margin-top: 1.5rem;
+}
+.plant-tab-card{
+margin-top:1rem !important;
+}
+.plant-tab-img{
+margin-top: 1rem !important;
+}
+.img-event-detail{
+    height:25rem;
+    
+}
+}
+
+@media only screen and (max-width:767px){
+    .gly-col:nth-child(2){
+        display:none;
+    }
+
+   .gly-col:nth-child(3){
+     display:none;
+   }
+   .gly-col:nth-child(4){
+     display:none;
+   }
+   .modal-plant-card .modal-body{
+    padding:15px;
+   }
+}
+@media only screen and (max-width: 575px) {
+  .gallery-page-div .gly-img-card{
+    height:auto;
+  }
+  .gallery-page-div .gly-img-card a img{
+      height:140px;
+  }
+  .gallery-page-div .gly-img-card iframe{
+      height:200px;
+  }
+  .feedback-slider-item p {
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 400;
+  }
+  
+  .plant-img-card {
+    height: 150px;
+  }
+  .p-lead{
+    font-size:16px;
+  }
+  .visitor-profile-img{
+    height:150px;
+     width:150px; 
+     object-fit:cover;
+     padding:5px;
+     text-align: center;
+     border:2px solid #99b791;
+}
+.plant-sld-img-card{
+  min-height:18rem;
+  height:18rem;
+  padding:10px;
+}
+.plant-details-card .table:nth-child(1){
+margin-top: 0px;
+}
+.plant-details-card .table{
+  margin-top:20px;
+}
+.plant-modal-sld-img-card{
+  min-height:18rem;
+  height:18rem;
+  padding:10px;
+}
+.modal-plant-card .modal-body{
+  padding:10px;
+ }
+ .visitor-card-body.staff .v-box .card-body{
+    height:13rem;
+}
+}
+
+@media only screen and (max-width: 450px){
+  .main-container{
+      padding:10px !important;
+      box-shadow: 0px 0px 0px 0px #99b791;
+  }
+ .content-div{
+     box-shadow: 0px 0px 5px 2px #99b791;
+     padding:25px 15px;
+ } 
+ .p-lead{
+  font-size:15px;
+}
+.img-event-detail{
+    height:20rem;
+    
+}
+
+
+
+.profile-table tr td h5{
+  font-size: 15px;
+}
+.profile-table tr td:nth-child(1){
+  width:130px !important;
+}
+}
+@media only screen and (max-width:385px){
+  .header-search-wrapper .search-form-main{
+      width:325px;
+  }
+}
+

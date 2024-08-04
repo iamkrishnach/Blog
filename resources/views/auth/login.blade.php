@@ -96,6 +96,22 @@
 <body>
     <div class="limiter">
         <div class="container-login100">
+            @if (session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <!-- Display validation errors -->
+            @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
             <div class="wrap-login100">
                 <div class="login100-pic js-tilt" data-tilt>
                     <img src="{{ asset('/Auth/images/img-01.png') }}" alt="IMG">
